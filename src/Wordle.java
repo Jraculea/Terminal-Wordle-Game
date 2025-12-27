@@ -318,7 +318,7 @@ public class Wordle {
                 return;
             }
         }
-
+        
         String displayPuzzle = chosenWord.replace("", " ").trim();
 
         System.out.printf("%nBetter luck next time...%nThe word was: %s%s%s %s %s%n%n", BLACK_BACKGROUND, RED_TEXT, BOLD_TEXT, displayPuzzle, RESET_ANSI);
